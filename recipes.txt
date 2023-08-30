@@ -3,6 +3,6 @@ Fried Chicken
 Brisket
 Aloha Tacos
 
-func generateRandomNumber() -> Int {
+func generateRandomNumber(upperValue: Int) -> Int {
     Double.random(in: 1..<10.0)
 }
